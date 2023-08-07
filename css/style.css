@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  .filme {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+  }
