@@ -2,20 +2,23 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: rgb(89, 89, 89);
   }
   
   header {
-    background-color: #333;
+    background-color: rgb(9, 9, 9);
     padding: 20px;
     color: #fff;
   }
   
   main {
     margin: 20px;
+    margin-left: 20px;
   }
   
   h1, h2, h3 {
     margin: 0;
+    color: #fff;
   }
   
   .filme {
@@ -23,7 +26,7 @@ body {
   }
   
   footer {
-    background-color: #333;
+    background-color: rgb(9, 9, 9);
     padding: 20px;
     color: #fff;
     text-align: center;
@@ -33,4 +36,22 @@ body {
     display: flex;
     flex-direction: row;
     height: 400px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  p {
+    margin-left: 20px;
+    font-size: x-large;
+    color: #fff;
+  }
+
+  .box{
+    border-radius: 80px;
+    border-style: inset;
+    border: 15px flex;
+  }
+
+  .box:hover {
+    box-shadow: 5px 5px 15px;
   }
